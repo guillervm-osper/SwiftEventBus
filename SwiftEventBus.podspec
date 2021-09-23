@@ -11,4 +11,6 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.source_files = 'SwiftEventBus/SwiftEventBus.swift'
   s.requires_arc = true
+  s.swift_versions = '5.0'
+  s.swift_version = '5.0'
 end
